@@ -1,0 +1,241 @@
+                                                            * {
+                                                            box-sizing: border-box;
+                                                            padding: 0;
+                                                            margin: 0;
+                                                        }
+                                                        
+                                                        .sm {
+                                                            display: none;
+                                                        }
+                                                        
+                                                        h1,
+                                                        h2,
+                                                        h3,
+                                                        h4,
+                                                        h5,
+                                                        h6,
+                                                        p {
+                                                            margin: 0 0;
+                                                        }
+                                                        
+                                                        #landing-page {
+                                                            display: grid;
+                                                            grid-template-areas: "img title";
+                                                            /* background-color: #FDDC32; */
+                                                            background-color: #140C35;
+                                                            height: 70vh;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        .book-img {
+                                                            height: 350px;
+                                                            justify-self: center;
+                                                            grid-area: img;
+                                                        }
+                                                        
+                                                        .landing-bio {
+                                                            /* width: 300px; */
+                                                            justify-self: center;
+                                                            grid-area: title;
+                                                        }
+                                                        
+                                                        .book-title {
+                                                            color: white;
+                                                            font-size: 45px;
+                                                        }
+                                                        
+                                                        .order-now {
+                                                            background-color: #fddc32;
+                                                            color: #140C35;
+                                                            cursor: pointer;
+                                                            text-decoration: none;
+                                                            border: solid 1px white;
+                                                            border-radius: 5px;
+                                                            padding: 10px 10px;
+                                                        }
+                                                        
+                                                        .revi {
+                                                            background-color: #fddc32;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        .d-revi {}
+                                                        
+                                                        .comment {
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .revi-by {
+                                                            text-align: right;
+                                                            font-size: 16px;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        .revi-position {
+                                                            text-align: right;
+                                                            font-size: 12px;
+                                                            font-style: italic;
+                                                        }
+                                                        
+                                                        .review-header {
+                                                            text-align: center;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        #review {
+                                                            background-color: #140C35;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        .reviews {
+                                                            display: grid;
+                                                            grid-template-areas: "col col";
+                                                            justify-content: space-around;
+                                                        }
+                                                        
+                                                        .review {
+                                                            background-color: white;
+                                                            max-width: 550px;
+                                                            padding: 10px 10px;
+                                                            border-radius: 5px;
+                                                            flex-grow: 1;
+                                                            flex-wrap: wrap;
+                                                            flex-basis: 550px;
+                                                            margin: 5px;
+                                                        }
+                                                        
+                                                        .revi-header {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: space-between;
+                                                        }
+                                                        
+                                                        .revi-det {
+                                                            display: flex;
+                                                            align-items: baseline;
+                                                            height: 100%;
+                                                        }
+                                                        
+                                                        .review-img {
+                                                            widows: 50px;
+                                                            height: 50px;
+                                                            border-radius: 50%;
+                                                        }
+                                                        
+                                                        .name {
+                                                            /* align-self: baseline; */
+                                                            height: 100%;
+                                                        }
+                                                        
+                                                        .stars {
+                                                            align-self: flex-start;
+                                                        }
+                                                        
+                                                        .fa-star {
+                                                            color: #fddc32;
+                                                        }
+                                                        
+                                                        .d-review {}
+                                                        
+                                                        .create-revi {
+                                                            background-color: #140C35;
+                                                            margin-top: 10px;
+                                                            color: white;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        .d-revi-header {
+                                                            text-align: center;
+                                                            margin: 5px 0;
+                                                            font-size: 20px;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        .rating-row {
+                                                            text-align: center;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            margin: 5px 0;
+                                                        }
+                                                        
+                                                        .rating-header {
+                                                            font-size: 18px;
+                                                            color: red;
+                                                        }
+                                                        
+                                                        .rating-stars {}
+                                                        
+                                                        .revi-comment {
+                                                            align-self: flex-start;
+                                                            margin: 5px 0;
+                                                        }
+                                                        
+                                                        .text-field {
+                                                            display: grid;
+                                                            grid-template-columns: 1fr;
+                                                            width: 80%;
+                                                            margin: 0 auto;
+                                                        }
+                                                        
+                                                        .comment-field {
+                                                            width: 100%;
+                                                            display: block;
+                                                            margin: 0 auto;
+                                                        }
+                                                        
+                                                        .send-review {
+                                                            background-color: #fddc32;
+                                                            color: #140C35;
+                                                            cursor: pointer;
+                                                            text-decoration: none;
+                                                            border: solid 1px white;
+                                                            border-radius: 5px;
+                                                            padding: 10px 10px;
+                                                            /* margin: 10px auto; */
+                                                            text-align: center;
+                                                            justify-self: flex-end;
+                                                            align-self: flex-end;
+                                                            margin: 10px 0;
+                                                        }
+                                                        
+                                                        @media (max-width: 600px) {
+                                                            #landing-page {
+                                                                display: grid;
+                                                                height: 100%;
+                                                                grid-template-areas: "img" "title";
+                                                            }
+                                                            .book-img {
+                                                                grid-area: img;
+                                                            }
+                                                            .landing-bio {
+                                                                grid-area: title;
+                                                            }
+                                                            .book-title {
+                                                                color: red;
+                                                            }
+                                                            .bg {
+                                                                display: none;
+                                                            }
+                                                            .sm {
+                                                                display: block;
+                                                                text-align: center;
+                                                                font-size: 30px;
+                                                            }
+                                                            .order-now {
+                                                                margin: 10px auto;
+                                                                position: relative;
+                                                                left: 50%;
+                                                                transform: translateX(-50%);
+                                                            }
+                                                            .reviews {
+                                                                display: grid;
+                                                                grid-template-areas: "col";
+                                                                justify-content: space-around;
+                                                            }
+                                                            .text-field {
+                                                                width: 95%;
+                                                            }
+                                                        }

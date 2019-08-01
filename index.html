@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Nav bar goes in here -->
+
+    <!-- Navbar ends here -->
+    <!-- Landing Page here -->
+    <section id="landing-page">
+
+        <img src="images/fb.png" alt="" class="book-img">
+        <div class="landing-bio">
+            <h1 class="book-title bg">
+                The Past,<br /> Present <br /> &amp; <br /> Future <br /> Me
+            </h1>
+            <h1 class="book-title sm">
+                The Past, Present &amp; Future Me
+            </h1>
+            <button class="order-now">
+                Order Now
+            </button>
+        </div>
+    </section>
+    <!-- Professional revieww starts her using owl carousel -->
+    <section id="reviewers">
+        <div class="revi">
+            <!-- <div class="d-revi"> -->
+            <div class="owl-carousel owl-theme">
+                <div class="d-revi">
+                    <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt ducimus deserunt ipsam iusto tenetur itaque atque necessitatibus nam consectetur dolorem placeat natus culpa est quibusdam beatae, perferendis quia quaerat!</p>
+                    <p class="revi-by">--- James Mccharty</p>
+                    <p class="revi-position">
+                        Chief Editor at WSJ
+                    </p>
+                    <!-- </div> -->
+                </div>
+                <!-- another one -->
+                <div class="d-revi">
+                    <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt ducimus deserunt ipsam iusto tenetur itaque atque necessitatibus nam consectetur dolorem placeat natus culpa est quibusdam beatae, perferendis quia quaerat!</p>
+                    <p class="revi-by">--- Paul Lambert</p>
+                    <p class="revi-position">
+                        Chief Writer at Bloomberg
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- professional review ends here -->
+    <!-- Landing Page ends Here -->
+    <!-- Review section starts here -->
+    <section id="review">
+        <h3 class="review-header">
+            Reviews From Buyers
+        </h3>
+        <div class="reviews">
+            <!-- anothere one  -->
+            <div class="review">
+                <span class="revi-header">
+                    <span class="revi-det">
+
+                        <img src="images/user.jpg" alt="" class="review-img">
+                        <p class="name">Andrew Thomson</p>
+                    </span>
+                <span class="stars">
+                        <span><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i></span>
+                </span>
+                </span>
+                <p class="d-review">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa voluptates consequatur? Consequuntur similique natus ipsam veniam, excepturi quae corrupti.
+                </p>
+            </div>
+            <!-- another one -->
+            <div class="review">
+                <span class="revi-header">
+                    <span class="revi-det">
+
+                        <img src="images/user.jpg" alt="" class="review-img">
+                        <p class="name">Andrew Thomson</p>
+                    </span>
+                <span class="stars">
+                        <span><i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i></span>
+                </span>
+                </span>
+                <p class="d-review">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa voluptates consequatur? Consequuntur similique natus ipsam veniam, excepturi quae corrupti.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Review Section Ends here -->
+    <!-- Post Review here -->
+    <section class="create-revi">
+        <p class="d-revi-header">Drop Your Review</p>
+        <span class="rating-row">
+            <p class="rating-header">Rating:</p>
+            <span><i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i></span>
+        </span>
+
+        <div class="text-field">
+            <p class="revi-comment">Write Your Review</p>
+            <textarea name="" id="" cols="" rows="10" class="comment-field"></textarea>
+            <a href="" class="send-review">Post</a>
+        </div>
+    </section>
+    <!-- Post Review ends here -->
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                items: 1,
+                margin: 10,
+                nav: true,
+
+            })
+        });
+    </script>
+</body>
+
+</html>
